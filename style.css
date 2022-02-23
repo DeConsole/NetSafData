@@ -1,0 +1,139 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Maiandra GD", serif;
+    margin: 0;
+    padding: 50px;
+    background-color: #f7f7f7;
+    color: #222222;
+}
+
+input {
+    font-size: 15px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+}
+
+.header {
+    text-align: center;
+}
+
+.container .wrapper,
+.form form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .wrapper {
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+.container .edit-wrapper {
+    justify-content: center;
+}
+
+.form {
+    border: 1px solid #cccccc;
+    flex-basis: 30%;
+    padding: 20px;
+    background-color: #f7f7f7;
+    float: right;
+}
+
+.form label {
+    font-weight: bold;
+    color: indigo;
+    padding: 5px;
+    width: 100%;
+}
+.form select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.form [type="text"],
+.form [type="datetime-local"],
+.form [type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #666666;
+    border-radius: 5px;
+}
+
+
+.btn {
+
+    margin-top: 10px;
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 2px;
+    background: green;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.shadow {
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.msg {
+    width: 100%;
+    color: #dc3545;
+    border: 1px solid #dc3545;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.user-list {
+    padding-left: 20px;
+    flex: 1;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 10;
+}
+
+table th {
+    background-color: #f7f7f7;
+}
+table th,
+table td {
+    border: 1px solid #cccccc;
+    padding: 5px;
+    text-align: center;
+}
+
+a.edit,
+a.delete {
+    background-color: #dc3545;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 3px 5px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+a.edit {
+    background-color: #0d6efd;
+}
